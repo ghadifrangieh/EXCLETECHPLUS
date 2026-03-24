@@ -1,0 +1,100 @@
+/* ================= WHY CHOOSE US ================= */
+
+.whysec {
+  padding: 100px 40px;
+  background: #f8fafc;
+  text-align: center;
+}
+
+.whysec-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* Title */
+.whysec-title {
+  font-size: 2.6rem;
+  font-weight: 800;
+  margin-bottom: 15px;
+  color: #0f172a;
+}
+
+/* Brand styling (UPDATED) */
+.whysec-title .brand {
+  display: inline-block;
+}
+
+.whysec-title .brand .exceltech {
+  color: #163d7a; /* logo dark blue */
+}
+
+.whysec-title .brand .plus {
+  color: #46a9e8; /* logo light blue */
+}
+
+/* Subtitle */
+.whysec-subtitle {
+  color: #64748b;
+  font-size: 1.1rem;
+  margin-bottom: 60px;
+}
+
+/* Grid */
+.whysec-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+/* Card */
+.why-card {
+  background: #ffffff;
+  padding: 35px;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  transition: all 0.3s ease;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.04);
+}
+
+.why-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+
+/* Icon */
+.why-icon {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+/* Card Title */
+.why-card h3 {
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+  color: #0f172a;
+}
+
+/* Card Text */
+.why-card p {
+  font-size: 0.95rem;
+  color: #475569;
+  line-height: 1.7;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width: 1000px) {
+  .whysec-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .whysec-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .whysec {
+    padding: 70px 20px;
+  }
+}
