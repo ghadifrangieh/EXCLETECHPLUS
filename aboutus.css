@@ -11,7 +11,7 @@
   padding: 40px 20px;
   background:
     linear-gradient(rgba(10, 10, 10, 0.35), rgba(10, 10, 10, 0.35)),
-    url("heroImage.png") center center/cover no-repeat;
+    url("heroImage.webp") center center/cover no-repeat;
   overflow: hidden;
 }
 
