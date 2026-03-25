@@ -3,7 +3,7 @@ const WHATSAPP_NUMBER = '96170174237'; // ← REPLACE WITH YOUR NUMBER
 
 // Get elements
 const whatsappBtn = document.getElementById('whatsappBtn');
-const contactForm = document.getElementById('contactForm');
+
 
 // WhatsApp Button Click Handler
 whatsappBtn.addEventListener('click', function() {
@@ -38,7 +38,6 @@ function buildWhatsAppMessage(data) {
   const subjectText = {
     'general': 'General Inquiry',
     'sales': 'Sales & Products',
-    'partnership': 'Partnership',
     'support': 'Customer Support'
   };
   
